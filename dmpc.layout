@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="decisiontree\DecisionTreeBase.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="922" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="GraphIsomor.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="177" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3206" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="GraphIsomor.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="SubgraphTree.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="104" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Subgraph.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5945" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="nauty\nauty.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="45754" topLine="1076" />
+		</Cursor>
+	</File>
+	<File name="decisiontree\DataFrame.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="491" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="decisiontree\DecisionTreeClassifier.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2719" topLine="87" />
+		</Cursor>
+	</File>
+	<File name="Graph.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1974" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="Graph.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7534" topLine="271" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
