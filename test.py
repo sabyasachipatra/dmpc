@@ -7,23 +7,23 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 
-
-# Function to perform training with giniIndex.
-def train_using_gini(X_train, y_train):
+# Function to perform training with entropy.
+def tarin_using_entropy(X_train, y_train):
   
-    # Creating the classifier object
-    clf_gini = DecisionTreeClassifier(criterion = "gini",
-            random_state = 100,max_depth=3, min_samples_leaf=5)
+    # Decision tree with entropy
+    clf_entropy = DecisionTreeClassifier(
+            criterion = "entropy", random_state = 100,
+            max_depth = 3, min_samples_leaf = 5)
   
     # Performing training
-    clf_gini.fit(X_train, y_train)
-    return clf_gini
+    clf_entropy.fit(X_train, y_train)
+    return clf_entropy
       
 
 # Function to make predictions
 def prediction(X_test, clf_object):
   
-    # Predicton on test with giniIndex
+    # Predicton on test
     y_pred = clf_object.predict(X_test)
     return y_pred
 
@@ -49,11 +49,11 @@ y_train = trainf.values[:,22]
 X_test = testf.values[:,0:21]
 y_test = testf.values[:,22]
 
-clf_gini = train_using_gini(X_train, y_train)
-y_pred_gini = prediction(X_test, clf_gini)
+clf_entropy = tarin_using_entropy(X_train, y_train)
+y_pred_entropy = prediction(X_test, clf_entropy)
 
 with open('out.txt', 'w') as f:
-    for line in y_pred_gini:
+    for line in y_pred_entropy:
         f.write(line)
         f.write('\n')
 

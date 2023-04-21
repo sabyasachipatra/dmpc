@@ -35,7 +35,7 @@ def tarin_using_entropy(X_train, y_train):
 # Function to make predictions
 def prediction(X_test, clf_object):
   
-    # Predicton on test with giniIndex
+    # Predicton on test
     y_pred = clf_object.predict(X_test)
     print("Predicted values:")
     print(y_pred)
@@ -65,12 +65,13 @@ clf_gini = train_using_gini(X_train, y_train)
 clf_entropy = tarin_using_entropy(X_train, y_train)
       
 # Operational Phase
-print("Results Using Gini Index:")
-      
 # Prediction using gini
 y_pred_gini = prediction(X_test, clf_gini)
 cal_accuracy(y_test, y_pred_gini)
 
+# Prediction using entropy
+y_pred_entropy = prediction(X_test, clf_entropy)
+cal_accuracy(y_test, y_pred_entropy)
 
 
   
